@@ -71,13 +71,12 @@ $response = new JSONResponse(array('key' => 'value'));
 $response->set('data', array('key' => 'value'));
 // Overrule the 'default' statusCode & header.
 $response->set('statusCode', 200);
-// Set a message, when not set text from the header is used. (typically not needed to set) 
-$response->set('message', 'No tralala, but oei oei.');
+// Set a custom message. (typically not needed to set) 
+$response->set('message', 'Processwire is awesome!');
 // Set errors, automatically a 400 status code & 400 header is send.
 $response->set('errors', array('error text 1', 'error text 2', 'etc.'));
 // Set a header not available in the class.
 $response->set('header', '200 Ok');
 // Echo all data to the client.
 echo $response->render();
-
 ```
