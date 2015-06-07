@@ -1,0 +1,2 @@
+# JSONResponse
+Standardized JSON response
