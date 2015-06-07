@@ -72,7 +72,7 @@ $response->set('data', array('key' => 'value'));
 // Overrule the 'default' statusCode & header.
 $response->set('statusCode', 200);
 // Set a custom message. (typically not needed to set) 
-$response->set('message', 'Processwire is awesome!');
+$response->set('message', 'ProcessWire is awesome!');
 // Set errors, automatically a 400 status code & 400 header is send.
 $response->set('errors', array('error text 1', 'error text 2', 'etc.'));
 // Set a header not available in the class.
