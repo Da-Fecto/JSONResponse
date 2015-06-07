@@ -63,9 +63,9 @@ For a more fine-grained control you can use the setters below.
 
 ```php
 /**
- * Setting properties manually.
+ * Setting properties.
  *
- * /
+ */
 $response = new JSONResponse(array('key' => 'value'));
 // When data is set, automatically a 200 status code & 200 header is send.
 $response->set('data', array('key' => 'value'));
