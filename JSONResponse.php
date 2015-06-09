@@ -5,6 +5,7 @@
  *
  * @author ©2015 Martijn Geerts
  *
+ * @todo: statuscode must be set before errors ... should not be ! 
  * ---------------------------------------------------------------------------------------
  *
  * 4 types: success, redirect, fail, error
